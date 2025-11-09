@@ -1,3 +1,4 @@
 export function getRandomInt(max) {
-  return {/*write code to here*/}
+  const randomNum = Math.random();
+  return Math.floor(randomNum * max);
 }
