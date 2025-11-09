@@ -4,7 +4,7 @@ import { getRandomQuote } from "./quotes.js";
 
 {/*write code for cors*/}
 const app = express();
-const PORT = 3001;
+const PORT = 3000;
 
 app.use(cors());
 
